@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.pregopower.provider.testcases.PatientsTestcase">
+        <methods>
+          <include name="TC03"/>
+          <include name="TC04"/>
+          <include name="setup"/>
+          <include name="TC05"/>
+        </methods>
+      </class> <!-- com.pregopower.provider.testcases.PatientsTestcase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
